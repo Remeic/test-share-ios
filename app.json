@@ -13,9 +13,14 @@
         {
           "origin": "https://n"
         }
-      ]
+      ],
+      "expo-share-extension"
     ],
     "name": "tooread_v2",
-    "slug": "tooread_v2"
+    "slug": "tooread_v2",
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "dev.justgiulio.tooread"
+    }
   }
 }
