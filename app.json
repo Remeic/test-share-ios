@@ -21,6 +21,9 @@
     "ios": {
       "supportsTablet": true,
       "bundleIdentifier": "dev.justgiulio.tooread"
+    },
+    "android": {
+      "package": "dev.justgiulio.tooread"
     }
   }
 }

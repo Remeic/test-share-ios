@@ -26,7 +26,11 @@ function withShareExtension(config) {
   return config;
 }
 
-module.exports = withShareExtension(getDefaultConfig(__dirname), {
-  // [Web-only]: Enables CSS support in Metro.
-  isCSSEnabled: true,
-});
+// module.exports = withShareExtension(getDefaultConfig(__dirname), {
+//   // [Web-only]: Enables CSS support in Metro.
+//   isCSSEnabled: true,
+// });
+
+module.exports = withShareExtension(
+  withNativeWind(config, { input: "./src/global.css" })
+);
